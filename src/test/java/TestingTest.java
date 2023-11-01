@@ -6,11 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestingTest {
 
     @Test
-    public void multiplyTest_when5Ties6_thenReturn30() {
+    public void multiplyTest_when5Times6_thenReturn30() {
         //GIVEN
         int value1 = 5;
         int value2 = 6;
-        String a = "Hallo";
 
 
         //WHEN
@@ -110,7 +109,7 @@ public class TestingTest {
 
         // GIVEN
 
-        double value1 = 44.33;
+        double value1 = -44.33;
 
         // WHEN
 
