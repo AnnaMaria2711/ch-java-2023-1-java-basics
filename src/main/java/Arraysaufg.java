@@ -24,8 +24,8 @@ public class Arraysaufg {
         int position = 0;
         for (int i = 11; i < 21; i++) {
             test[position] = i;
-            position++;
             System.out.println(test[position]);
+            position++;
         }
 
         for (int i = 0 ;i < zahlen2.length; i ++ ){
