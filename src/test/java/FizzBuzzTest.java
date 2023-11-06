@@ -17,4 +17,49 @@ public class FizzBuzzTest {
         // THEN
         assertEquals(1,actual);
     }
+
+    @Test
+
+    void FizzBuzzTest_when2_return2() {
+        // GIVEN
+
+        int number = 2;
+
+        // WHEN
+        int actual = FizzBuzz.fizzBuzz(number);
+
+        // THEN
+        assertEquals(2, actual);
+    }
+
+    @Test
+
+    void FizzBuzzTest_when3_returnFizz(){
+
+        // GIVEN
+
+        int number = 3;
+
+        // WHEN
+
+        String actual = FizzBuzz.fizzBuzz(number);
+
+        // THEN
+
+        assertEquals("Fizz", actual);
+    }
+   @Test
+    void FizzBuzzTest_when15_returnFizzBuzz(){
+        // GIVEN
+
+       int number = 15;
+
+       // WHEN
+
+       String actual = FizzBuzz.fizzBuzz(number);
+
+       // THEN
+
+       assertEquals("FizzBuzz", actual);
+    }
 }
