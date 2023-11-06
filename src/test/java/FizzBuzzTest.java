@@ -1,4 +1,5 @@
 import org.example.FizzBuzz;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -12,7 +13,7 @@ public class FizzBuzzTest {
         int number = 1;
 
         // WHEN
-        int actual = FizzBuzz.fizzBuzz(number);
+        String actual = FizzBuzz.fizzBuzz(number);
 
         // THEN
         assertEquals(1,actual);
@@ -26,7 +27,7 @@ public class FizzBuzzTest {
         int number = 2;
 
         // WHEN
-        int actual = FizzBuzz.fizzBuzz(number);
+        String actual = FizzBuzz.fizzBuzz(number);
 
         // THEN
         assertEquals(2, actual);
