@@ -11,4 +11,8 @@ public class Spielbrett {
         return 0;
     }
 
+    public static int getY() {
+        return 0;
+    }
+
 }

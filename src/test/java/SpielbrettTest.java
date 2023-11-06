@@ -37,4 +37,18 @@ public class SpielbrettTest {
 
         assertEquals(0, actual);
     }
+    @Test
+    void getYTest_shouldReturn0() {
+        // GIVEN
+
+
+        // WHEN
+
+        int actual = Spielbrett.getY();
+
+        // THEN
+
+        assertEquals(0, actual);
+    }
+
 }
