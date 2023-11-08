@@ -1,3 +1,5 @@
+package org.example.KlassenUndObjekte;
+
 import java.util.Scanner;
 
 public class Auto {

@@ -1,3 +1,5 @@
+package org.example.KlassenUndObjekte;
+
 public class KlassenUndObjekte {
 
     public static void main(String[] args) {
