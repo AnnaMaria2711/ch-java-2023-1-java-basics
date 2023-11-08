@@ -1,4 +1,4 @@
-package org.example.KlassenUndObjekte;
+package org.example.klassenundobjekte;
 
 import java.util.Scanner;
 
