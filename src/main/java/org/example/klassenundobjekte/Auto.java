@@ -32,12 +32,11 @@ public class Auto {
     }
 
     public void setVelocity() {
-        System.out.println("Gib die jetztige Geschwindigkeit an.");
-        geschwindigkeit = sc.nextInt();
         System.out.println("Gib an um wie viel das Auto beschleunigt werden soll");
         int beschleunigung = sc.nextInt();
         int sum = geschwindigkeit + beschleunigung;
         System.out.println("Die jetzige Geschwindigkeit des Autos beträgt: " + geschwindigkeit);
+        geschwindigkeit = sum;
         System.out.println("Die gewünschte Beschleunigung beträgt: " + beschleunigung);
         System.out.println("Die neue Geschwindigkeit beträgt: " + sum);
     }
