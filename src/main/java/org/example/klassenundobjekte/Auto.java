@@ -15,7 +15,7 @@ public class Auto {
 
     int geschwindigkeit;
 
-    Auto(String marke, String modell, String farbe, String baujahr) {
+    public Auto(String marke, String modell, String farbe, String baujahr) {
 
         this.marke = marke;
         this.modell = modell;
